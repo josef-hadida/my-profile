@@ -1,0 +1,97 @@
+/* colors and fonts */
+
+
+body {	background-color: #EEEEEE;
+    	color: #222831;
+    	font-family: Domine,serif;
+    	font-weight: 450;
+    	letter-spacing: 1px;
+    	font-size:20px ;
+	}
+h1,h2{
+	text-justify: center;
+}
+h1  {  
+     	font-size: 40px;
+    	font-weight: 800;
+        color: #00ADB5;
+    	font-family: Bebas Neue, display;
+}
+h2 {
+    font-size: 28px;
+    color: #393E46;
+    font-family: Akshar,sans-serif;
+}
+a{text-decoration: none;
+  color: #00ADB5;
+  font-weight: 900;
+  font-size: 25px;
+  font-family: Domine,sans-serif;
+}
+a:hover {
+  		color: #9C83F6;
+}
+div{
+	background: white;
+	margin: 10px;
+}
+
+
+/* custom design with class */
+
+
+.container { 
+	width: 850px;
+	margin: 50px auto;
+	box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	text-align: center;
+	padding: 40px;
+}
+.box-white {
+	width: 850px;
+	background-color: white;
+	padding: 40px;
+	box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	margin: 35px auto;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+	width: 220px;
+}
+.btn-purple{
+	background-color: #00ADB5;
+	color: white;
+	padding: 7.5px 10px;
+	border-radius: 4px;
+	font-size: 24px;
+	display: inline;
+	margin: 0px 22px;
+}
+.btn-purple:hover {
+	background-color: #9C83F6;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 40px;
+}
+.list-inline i: hover {
+	color:#9C83F6 ;
+}
+#introduction p {
+	margin-bottom: 50px;
+}
+
+
+}
